@@ -15,8 +15,8 @@ def input():
     if i != 0:
       userdata = line[:-1].split(',')
       userdata[3] = int(userdata[3])
-#      if userdata[3] > 1122822000 and userdata[3] < 1406818800:
-      if userdata[3] > 1280588400 and userdata[3] < 1406818800:
+      if userdata[3] > 1122822000 and userdata[3] < 1406818800:
+#      if userdata[3] > 1280588400 and userdata[3] < 1406818800:
 #      if userdata[3] > 1343746800 and userdata[3] < 1406818800:
         if (userdata[0] not in dic) == True:
           dic[userdata[0]] = {}
