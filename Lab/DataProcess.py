@@ -10,7 +10,7 @@ def input():
   dic2 = {}
   userls = []
   user2ls = []
-  f  = open("/Users/TomonotiHayshi/Desktop/OneDrive/ml-latest/ratings.csv")
+  f  = open("/Users/TomonotiHayshi/Desktop/GDrive/ml-latest/ratings.csv")
   for line in f:
     if i != 0:
       userdata = line[:-1].split(',')

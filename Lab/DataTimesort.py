@@ -1,6 +1,6 @@
 def input():
-  f = open("/Users/TomonotiHayshi/Desktop/OneDrive/More20/learning1997.csv","r")
-  p = open("/Users/TomonotiHayshi/Desktop/OneDrive/learning1997con.csv","w")
+  f = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1781/learning1781.csv","r")
+  p = open("/Users/TomonotiHayshi/Desktop/GDrive/learning1781sort.csv","w")
   a = 0
   b = -1
   user = []

@@ -1,7 +1,12 @@
 def input():
-  f = open("/Users/TomonotiHayshi/Desktop/OneDrive/learning1997sort.csv","r")
-  p = open("/Users/TomonotiHayshi/Desktop/OneDrive/learning1997con.csv","w")
+  f = open("/Users/TomonotiHayshi/Desktop/GDrive/learning1781sort.csv","r")
+  p = open("/Users/TomonotiHayshi/Desktop/GDrive/learning1781con.csv","w")
   a = 0
+#  lost = 1209600
+#  lost = 1814400
+#  lost = 2592000
+#  lost = 5184000
+#  lost = 10368000
   lost = 15552000
   b = -1
   count = 0
