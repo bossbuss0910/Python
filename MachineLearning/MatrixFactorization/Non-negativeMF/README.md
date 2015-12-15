@@ -4,6 +4,7 @@
 ## NMF.py
 ### Factorize(data,w,h)
 * 評価値行列をユーザー行列とアイテム行列に分解する
+
 ### result(data,w,h)
 * 結果を出力
 
