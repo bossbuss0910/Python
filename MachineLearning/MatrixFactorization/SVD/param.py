@@ -2,7 +2,7 @@ import random
 import numpy as np
 
 class parameter:
-  def __init__(self,User = 7,Item = 7,K = 4):
+  def __init__(self,User,Item,K):
     #Generate init RateMatrix
     self.RateMatrix = [[0 for i in range(Item)] for j in range(User)]
     #Generate init Decomposing Matrix

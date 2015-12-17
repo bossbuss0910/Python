@@ -4,10 +4,14 @@ import svd
 import time
 
 def run():
-    data = param.parameter()
+    #Get Parameter
+    data = param.parameter(7,7,4)
     data.get_sample()
-    MF = svd.SVD()
-    MF.learn(data)
+    #Get SVD_Data
+    MF = svd.SVD(0.001,0.0001)
+    MF.iteration(data,2000)
+    #Outuout Result
+    MF.re(data)
 
 if __name__=="__main__":
     start = time.time()
