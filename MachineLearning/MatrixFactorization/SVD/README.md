@@ -1,5 +1,5 @@
 # SingularValueDecomption
-* 特異値分解
+特異値分解
 
 ## parameter.py
 ### __init__(User,Item,K)
