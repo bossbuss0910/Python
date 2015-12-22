@@ -5,7 +5,7 @@ import time
 
 def run():
     #Get Parameter
-    data = param.parameter(7,7,4)
+    data = param.parameter(15,15,5)
     data.get_sample()
     #Get SVD_Data
     MF = svd.SVD(0.001,0.0001)

@@ -1,6 +1,7 @@
 import numpy as np
 import random
 import param
+import math
 from numpy.matrixlib.defmatrix import matrix
 
 class SVD:
@@ -49,12 +50,16 @@ class SVD:
 
     def total_error(self,data,all):
         total = 0
+        ttotal = 0
         for user in range(data.Num_User):
+            count = 0
             for item in range(data.Num_Item):
                 if (data.RateMatrix[user][item] != 0.0):
+                    count += 1
                     de = self.error(user,item,data,all)
                     total += pow(de,2)
-        print "Total_Error:" + str(total)
+            ttotal += math.sqrt(float(total)/float(count))
+        print "RMSE:" + str(total)
 
     def re(self,data):
         all = 0.0
