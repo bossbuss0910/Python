@@ -1,6 +1,6 @@
 import param
 import numpy as np
-import svd
+import sgd
 import time
 
 def run():
@@ -8,7 +8,7 @@ def run():
     data = param.parameter(15,15,5)
     data.get_sample()
     #Get SVD_Data
-    MF = svd.SVD(0.001,0.0001)
+    MF = sgd.SGD(0.001,0.0001)
     MF.iteration(data,2000)
     #Outuout Result
     MF.re(data)

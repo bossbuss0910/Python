@@ -4,7 +4,7 @@ import param
 import math
 from numpy.matrixlib.defmatrix import matrix
 
-class SVD:
+class SGD:
     def __init__(self,gamma,lam):
         self.gamma = gamma
         self.lam = lam

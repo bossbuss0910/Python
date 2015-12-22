@@ -1,5 +1,5 @@
-# SingularValueDecomption
-特異値分解
+# StochasticGradientDescent
+確率的勾配降下法
 
 ## parameter.py
 ### __init__(User,Item,K)
@@ -11,7 +11,7 @@
 ### get_sumple()
 * ランダムで評価値行列を取得する
 
-## svd.py
+## sgd.py
 ### __init__(gamma,lamda)
 * 引数で指定して、lamda,gammaの値を取得
 * gamma:学習率
