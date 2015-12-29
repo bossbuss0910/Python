@@ -14,16 +14,17 @@ class parameter:
     self.Num_User = User
     self.Num_Item = Item
     self.Num_Comtext = comtext
-
   def get_sample(self):
-    self.RateTensor = [[[float(int((random.random()*10)%5)) for i in range(len(self.RateTensor[0][0]))] for j in range(len(self.RateTensor[0]))]for k in range(len(self.RateTensor))]
-    print self.tensor_display(self.RateTensor)
+    print "RateTensor:"
+    self.RateTensor = [[[float(random.randint(1,5)) for i in range(len(self.RateTensor[0][0]))] for j in range(len(self.RateTensor[0]))]for k in range(len(self.RateTensor))]
+    self.tensor_display(self.RateTensor)
+    print
 
   def tensor_display(self,tensor):
       for i in range(len(tensor)):
           if i == 0:
               print "[" + str(np.matrix(tensor[i]))
           if i != 0 and i != (len(tensor) - 1):
-              print "  " + str(np.matrix(tensor[i])) + ","
+              print " " + str(np.matrix(tensor[i])) + ","
           if i != 0 and i == (len(tensor) - 1):
               print " " + str(np.matrix(tensor[i])) + "]"
