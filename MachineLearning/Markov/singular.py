@@ -60,10 +60,10 @@ def output(file,data):
 
 
 if __name__=="__main__":
-    file = "/Users/TomonotiHayshi/Desktop/GDrive/TrainData1781re/learning1781sort.csv"
+    file = "/Users/TomonotiHayshi/Desktop/GDrive/TrainData1781re/learning1997sort.csv"
     file2 = "/Users/TomonotiHayshi/Desktop/GDrive/TrainData1781/Result1781/Markov/Markov_Top20/"
     markov = Markov()
-    data = param.Parameter(1782,20)
+    data = param.Parameter(1998,20)
     input(file,markov,data)
     markov.sort(data)
     output(file2,data)

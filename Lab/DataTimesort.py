@@ -1,8 +1,8 @@
 def input():
-#  f = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1781/learning1781.csv","r")
-#  p = open("/Users/TomonotiHayshi/Desktop/GDrive/learning1781sort.csv","w")
-  f = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1781/test1781.csv","r")
-  p = open("/Users/TomonotiHayshi/Desktop/GDrive/test1781sort.csv","w")
+#  f = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1805/learning1805.csv","r")
+#  p = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1805/learning1805sort.csv","w")
+  f = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1805/test1805.csv","r")
+  p = open("/Users/TomonotiHayshi/Desktop/GDrive/TrainData1805/test1805sort.csv","w")
   a = 0
   b = -1
   user = []
